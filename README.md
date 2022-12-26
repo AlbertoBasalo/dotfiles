@@ -1,4 +1,6 @@
 # dotfiles
+> Idea taken from [Web Bos dot files initiative](https://github.com/wesbos/dotfiles)
+
 🧰 VS code settings, 🪛 extensions and ✂️ tool configurations
 
 ## [🧰 VS Code settings](https://github.com/AlbertoBasalo/dotfiles/blob/main/settings.json)
