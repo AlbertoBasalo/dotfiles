@@ -1,6 +1,6 @@
 Based on [this tip by Wes Bos](https://github.com/wesbos/dotfiles/blob/master/get-extensions.js)
 
-Here are a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
+Here is a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
 |  |  |
 | --- | --- |
 | <a href="https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra"><img width="100" src="https://nicoespeon.gallerycdn.vsassets.io/extensions/nicoespeon/abracadabra/6.17.0/1668532556606/Microsoft.VisualStudio.Services.Icons.Default" alt="Abracadabra, refactor this!"> | <h3><a href="https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra">Abracadabra, refactor this!</a></h3>Automated refactorings for VS Code, in JavaScript and TypeScript. |
