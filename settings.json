@@ -4,8 +4,8 @@
       "addWords": true,
       "description": "Personal dictionary",
       "name": "personal",
-      "scope": "user",
-      "path": "~/OneDrive/personal-dictionary.txt"
+      "path": "~/OneDrive/personal-dictionary.txt",
+      "scope": "user"
     }
   },
   "cSpell.diagnosticLevel": "Hint",
@@ -22,12 +22,12 @@
     "source.organizeImports": true
   },
   "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.fontFamily": "'Fira Code', 'Cascadia Mono PL', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -47,6 +47,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
+    "comments": "#708238",
     "textMateRules": [
       {
         "name": "Control flow",
@@ -70,11 +71,7 @@
       },
       {
         "name": "Function/Method Calls HTML attributes",
-        "scope": [
-          "meta.function-call",
-          "keyword.operator.new.ts",
-          "entity.other.attribute-name.html"
-        ],
+        "scope": ["meta.function-call", "keyword.operator.new.ts", "entity.other.attribute-name.html"],
         "settings": {
           "fontStyle": "italic"
         }
@@ -101,8 +98,8 @@
   "eslint.enable": true,
   "eslint.run": "onType",
   "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -118,9 +115,9 @@
   "git.enableSmartCommit": true,
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
+    "markdown": true,
     "plaintext": false,
-    "markdown": true
+    "yaml": false
   },
   "grammarly.config.documentDomain": "business",
   "html.format.enable": false,
@@ -128,9 +125,12 @@
   "html.format.wrapAttributes": "auto",
   "html.format.wrapLineLength": 120,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.files.associations": {
+    "*.adapter.ts": "capacitor",
     "*.api.ts": "database",
     "*.block.ts": "angular-component",
+    "*.bus.ts": "velocity",
     "*.component.ts": "angular",
     "*.config.ts": "tune",
     "*.control.ts": "angular",
@@ -139,6 +139,7 @@
     "*.entity.ts": "raml",
     "*.enum.ts": "tune",
     "*.environment.ts": "tune",
+    "*.facade.ts": "mjml",
     "*.factory.ts": "hardhat",
     "*.form.ts": "angular",
     "*.interceptor.ts": "angular-service",
@@ -146,43 +147,49 @@
     "*.list.ts": "angular",
     "*.model.ts": "raml",
     "*.page.ts": "angular-resolver",
+    "*.port.ts": "capacitor",
     "*.providers.ts": "angular-service",
     "*.repository.ts": "database",
-    "*.store.ts": "redux-store",
+    "*.signal.ts": "redux-store",
     "*.storage.ts": "database",
+    "*.store.ts": "redux-store",
     "*.table.ts": "angular",
     "*.transform.ts": "document",
-    "transform.ts": "document",
     "*.type.ts": "raml",
-    "validation.ts": "document",
+    "*.use-case.ts": "purescript",
     "*.validation.ts": "document",
     "*.view.ts": "angular",
+    "*.widget.ts": "angular",
     "CLI.md": "console",
-    "TASKS.md": "todo"
+    "TASKS.md": "todo",
+    "transform.ts": "document",
+    "validation.ts": "document"
   },
   "material-icon-theme.folders.associations": {
     "domain": "core",
+    "shell": "stack",
     "state": "redux-store",
     "ui": "angular"
   },
   "prettier.bracketSameLine": true,
   "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.printWidth": 120,
   "prettier.requireConfig": false,
-  "screencastMode.fontSize": 28,
+  "screencastMode.fontSize": 20,
   "screencastMode.keyboardOverlayTimeout": 500,
   "screencastMode.keyboardShortcutsFormat": "command",
   "screencastMode.mouseIndicatorColor": "#3fb950",
-  "screencastMode.mouseIndicatorSize": 36,
+  "screencastMode.mouseIndicatorSize": 72,
   "screencastMode.onlyKeyboardShortcuts": true,
   "search.exclude": {
     "**/env": true,
     "node_modules/": true
   },
   "terminal.integrated.fontSize": 16,
-  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#3fb950",
     "editor.lineHighlightBorder": "#000000",
     "editorBracketHighlight.foreground1": "#a371f7",
     "editorBracketHighlight.foreground2": "#58a6ff",
@@ -190,13 +197,17 @@
     "editorBracketHighlight.foreground4": "#d29922",
     "editorBracketHighlight.foreground5": "#db6d28",
     "editorBracketHighlight.foreground6": "#f85149",
+    "editorCursor.foreground": "#3fb950",
     "editorError.foreground": "#f85149",
     "editorWarning.foreground": "#d29922",
+    "list.activeSelectionBackground": "#fff",
+    "list.activeSelectionForeground": "#000",
+    "list.inactiveSelectionBackground": "#fff",
+    "list.inactiveSelectionForeground": "#000",
     "tab.activeBorder": "#3fb950",
     "tab.activeBorderTop": "#3fb950",
     "terminalCursor.foreground": "#3fb950"
   },
   "workbench.colorTheme": "Winter is Coming (Light - No Italics)",
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 1
+  "workbench.iconTheme": "material-icon-theme"
 }
