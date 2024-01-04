@@ -18,6 +18,14 @@
 
 ### [Screenshots: SynthWave84 with CodeSnap](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
 
+## Angular specific settings:
+
+### [🧰 Angular VS Code settings](https://github.com/AlbertoBasalo/dotfiles/blob/main/angular-settings.json)
+
+### [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials)
+
+### [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+
 ---
 
 <footer>

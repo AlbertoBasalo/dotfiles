@@ -1,0 +1,206 @@
+{
+  "cSpell.customDictionaries": {
+    "word-up": {
+      "addWords": true,
+      "description": "Personal dictionary",
+      "name": "personal",
+      "path": "~/OneDrive/personal-dictionary.txt",
+      "scope": "user"
+    }
+  },
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,es",
+  "debug.console.fontSize": 16,
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoIndent": "full",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Monaspace Argon','Fira Code', 'Cascadia Mono PL', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.hover.above": false,
+  "editor.hover.sticky": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "other": "inline",
+    "strings": "off"
+  },
+  "editor.quickSuggestionsDelay": 1000,
+  "editor.renderWhitespace": "none",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "comments": "#708238",
+    "textMateRules": [
+      {
+        "name": "Control flow",
+        "scope": "keyword.control, keyword.control.flow",
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "name": "Definitions",
+        "scope": [
+          "entity.name.type.class",
+          "meta.definition.method",
+          "meta.definition.property",
+          "meta.definition.function",
+          "entity.name.section.markdown"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Function/Method Calls HTML attributes",
+        "scope": ["meta.function-call", "keyword.operator.new.ts", "entity.other.attribute-name.html"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Other",
+        "scope": [
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.from",
+          "keyword.operator",
+          "meta.type.annotation",
+          "storage"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "node_modules/": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "dist/": true
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "html.format.enable": false,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 120,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.files.associations": {
+    "*.adapter.ts": "capacitor",
+    "*.config.ts": "tune",
+    "*.config.server.ts": "tune",
+    "*.card.ts": "angular",
+    "*.class.ts": "raml",
+    "*.component.ts": "angular",
+    "*.dialog.ts": "angular",
+    "*.dto.ts": "raml",
+    "*.effect.ts": "redux-action",
+    "*.entity.ts": "raml",
+    "*.enum.ts": "tune",
+    "*.environment.ts": "tune",
+    "*.form.ts": "angular",
+    "*.index.ts": "lib",
+    "*.interface.ts": "raml",
+    "*.list.ts": "angular",
+    "*.page.ts": "angular-resolver",
+    "*.port.ts": "capacitor",
+    "*.provider.ts": "tune",
+    "*.repository.ts": "database",
+    "*.router.ts": "routing",
+    "*.service.ts": "angular-service",
+    "*.settings.ts": "tune",
+    "*.signal.ts": "redux-selector",
+    "*.state.ts": "redux-selector",
+    "*.store.ts": "redux-store",
+    "*.template.ts": "angular",
+    "*.type.ts": "raml",
+    "*.use-case.ts": "purescript",
+    "*.utils.ts": "purescript",
+    "*.validation.ts": "document",
+    "*.widget.ts": "angular",
+    "CLI.md": "console",
+    "TASKS.md": "todo"
+  },
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "shell": "stack",
+    "state": "redux-store",
+    "ui": "views"
+  },
+  "prettier.bracketSameLine": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.printWidth": 120,
+  "prettier.requireConfig": false,
+  "screencastMode.fontSize": 20,
+  "screencastMode.keyboardOverlayTimeout": 500,
+  "screencastMode.mouseIndicatorColor": "#3fb950",
+  "screencastMode.mouseIndicatorSize": 72,
+  "search.exclude": {
+    "**/env": true,
+    "node_modules/": true
+  },
+  "terminal.integrated.fontSize": 16,
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#a371f7",
+    "editorBracketHighlight.foreground2": "#58a6ff",
+    "editorBracketHighlight.foreground3": "#3fb950",
+    "editorBracketHighlight.foreground4": "#d29922",
+    "editorBracketHighlight.foreground5": "#db6d28",
+    "editorBracketHighlight.foreground6": "#f85149",
+    "editorCursor.foreground": "#3fb950",
+    "editorError.foreground": "#f85149",
+    "editorWarning.foreground": "#d29922",
+    "tab.activeBorder": "#a371f7",
+    "tab.activeBorderTop": "#a371f7",
+    "terminalCursor.foreground": "#47d469"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.wrapTabs": true
+}
