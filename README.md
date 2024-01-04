@@ -1,17 +1,23 @@
 # dotfiles
+
 > Idea taken from [Web Bos dot files initiative](https://github.com/wesbos/dotfiles)
 
-🧰 VS code settings, 🪛 extensions and ✂️ tool configurations
+### [🧰 VS Code settings](https://github.com/AlbertoBasalo/dotfiles/blob/main/settings.json)
 
-## [🧰 VS Code settings](https://github.com/AlbertoBasalo/dotfiles/blob/main/settings.json)
-## [🪛 Extensions I Use](https://github.com/AlbertoBasalo/dotfiles/blob/main/extensions-i-use.md)
-## [✂️ EsLint rules](https://github.com/AlbertoBasalo/dotfiles/blob/main/eslint.json)
-## Color and Icon Themes: 
-### [Winter is Coming while coding](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)
-### [SynthWave84 for CodeSnap screenshots](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
-### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+### [🪛 Extensions I Use](https://github.com/AlbertoBasalo/dotfiles/blob/main/extensions-i-use.md)
 
-  
+### [✂️ EsLint rules](https://github.com/AlbertoBasalo/dotfiles/blob/main/eslint.json)
+
+## Color and Icon Themes:
+
+### [Theme: Dark Modern]()
+
+### [Font: Monaspace Argon](https://github.com/githubnext/monaspace)
+
+### [icons: Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+### [Screenshots: SynthWave84 with CodeSnap](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
+
 ---
 
 <footer>

@@ -1,5 +1,7 @@
-
 {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "cSpell.customDictionaries": {
     "word-up": {
       "addWords": true,
@@ -17,16 +19,16 @@
   "editor.autoIndent": "full",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.addMissingImports": true,
-    "source.fixAll": true,
-    "source.fixAll.eslint": true,
-    "source.organizeImports": true
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
-  "editor.fontFamily": "'Fira Code', 'Cascadia Mono PL', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Monaspace Argon','Fira Code', 'Cascadia Mono PL', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": false,
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
@@ -128,40 +130,32 @@
   "html.format.wrapLineLength": 120,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "material-icon-theme.files.associations": {
-    "*.config.js": "tune",
-    "*.class.js": "raml",
-    "*.controller.js": "velocity",
-    "*.dto.js": "raml",
-    "*.entity.js": "raml",
-    "*.enum.js": "tune",
-    "*.environment.js": "tune",
-    "*.factory.js": "hardhat",
-    "*.form.js": "angular",
-    "*.index.js": "lib",
-    "*.interceptor.js": "angular-service",
-    "*.interface.js": "raml",
-    "*.list.js": "angular",
-    "*.model.js": "raml",
-    "*.port.js": "capacitor",
-    "*.repository.js": "database",
-    "*.repository.adapter.js": "database",
-    "*.router.js": "routing",
-    "*.service.js": "capacitor",
-    "*.settings.js": "tune",
-    "*.storage.js": "database",
-    "*.transform.js": "document",
-    "*.type.js": "raml",
-    "*.use-case.js": "purescript",
-    "*.validation.js": "document",
+    "*.adapter.ts": "capacitor",
+    "*.config.ts": "tune",
+    "*.class.ts": "raml",
+    "*.dto.ts": "raml",
+    "*.entity.ts": "raml",
+    "*.enum.ts": "tune",
+    "*.environment.ts": "tune",
+    "*.index.ts": "lib",
+    "*.interface.ts": "raml",
+    "*.port.ts": "capacitor",
+    "*.repository.ts": "database",
+    "*.router.ts": "routing",
+    "*.settings.ts": "tune",
+    "*.store.ts": "redux-store",
+    "*.type.ts": "raml",
+    "*.use-case.ts": "purescript",
+    "*.utils.ts": "purescript",
+    "*.validation.ts": "document",
     "CLI.md": "console",
-    "TASKS.md": "todo",
-    "transform.js": "document",
-    "validation.js": "document"
+    "TASKS.md": "todo"
   },
   "material-icon-theme.folders.associations": {
     "domain": "core",
     "shell": "stack",
-    "state": "redux-store"
+    "state": "redux-store",
+    "ui": "views"
   },
   "prettier.bracketSameLine": true,
   "prettier.htmlWhitespaceSensitivity": "ignore",
@@ -200,5 +194,6 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.revealIfOpen": true,
-  "window.zoomLevel": 1
+  "nxConsole.showNodeVersionOnStartup": false,
+  "workbench.startupEditor": "none"
 }
