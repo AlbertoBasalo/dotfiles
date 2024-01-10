@@ -26,6 +26,15 @@
 
 ### [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
 
+## Companion articles:
+
+### [How to configure VSCode to code better TypeScript](https://albertobasalo.medium.com/how-to-configure-vscode-to-code-better-typescript-d6e000b2cb06)
+
+### [5 VSCode extensions to write better TypeScript](https://albertobasalo.medium.com/5-vscode-extensions-to-write-better-typescript-9804acbada9)
+
+### [Fine-tune ESLint rules to write better TypeScript](https://albertobasalo.medium.com/fine-tune-eslint-rules-to-code-better-typescript-e4cabbbe2fa1)
+
+
 ---
 
 <footer>
